@@ -1,6 +1,7 @@
 # **NeuN3t20: Convolutional Spiking Neural Network for Vehicle Collision Avoidance**
 
 **Overview**
+
 NeuN3t20 is an initiative culminating in the construction of a Convolutional Spiking Neural Network (CSNN) based on the ResNet20 architecture. The primary focus of this project is real-time video-based vehicle collision prediction. 
 
 **Key Features**
@@ -11,3 +12,4 @@ NeuN3t20 is an initiative culminating in the construction of a Convolutional Spi
 >**Adversarial Robustness:** NeuN3t20 showcases superior adversarial robustness, outperforming current state-of-the-art approaches in handling challenging scenarios.
 >
 >**Energy Efficiency:** The project places a strong emphasis on energy efficiency, ensuring that the neural network operates optimally in resource-constrained environments.
+
