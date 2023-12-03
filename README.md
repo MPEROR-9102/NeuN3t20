@@ -3,6 +3,8 @@
 **Overview:** NeuN3t20 is an initiative culminating in the construction of a Convolutional Spiking Neural Network based on the ResNet20 architecture. The primary focus of this project is real-time video-based vehicle collision prediction. 
 
 
+
+
 ## **Key Features**
 >**Architecture:** Constructed on the ResNet20 framework, NeuN3t20 leverages a convolutional spiking neural network for enhanced performance in vehicle collision prediction.
 >
@@ -13,11 +15,15 @@
 >**Energy Efficiency:** The project places a strong emphasis on energy efficiency, ensuring that the neural network operates optimally in resource-constrained environments.
 
 
+
+
 ## **Dataset**
 
-This work utilizes a simulation-based dataset, created using a driving simulation known as Carla. This dataset consists of sequences each of which represents various scenarios in driving, where some represent a collision course while others represent safe driving. This dataset satisfies the requirements of mimicking real-world driving conditions under different circumstances and providing First-Person-View (FPV), which are some of the crucial criteria when addressing autonomous driving. The data has both safe and risky classes with 7000 sequences each. Each sequence consists of 8 images before the collision. The resolution of each frame in every sequence is 144 x 216 for training and inference. ![More Info](https://towardsdatascience.com/building-a-deep-learning-model-to-judge-if-you-are-at-risk-1c96f90d666c)
+This work utilizes a simulation-based dataset, created using a driving simulation known as Carla. This dataset consists of sequences each of which represents various scenarios in driving, where some represent a collision course while others represent safe driving. This dataset satisfies the requirements of mimicking real-world driving conditions under different circumstances and providing First-Person-View (FPV), which are some of the crucial criteria when addressing autonomous driving. The data has both safe and risky classes with 7000 sequences each. Each sequence consists of 8 images before the collision. The resolution of each frame in every sequence is 144 x 216 for training and inference. [More Info](https://towardsdatascience.com/building-a-deep-learning-model-to-judge-if-you-are-at-risk-1c96f90d666c)
 
 <img width="1287" alt="CollisionOrNot" src="https://github.com/MPEROR-9102/NeuN3t20/assets/97546729/00f338d2-f82e-4680-a2a6-9df7b595c5e6">
+
+
 
 
 ## **NeuN3t20 Architecture**
@@ -30,9 +36,13 @@ NeuN3t20 architecture consists of 20 layers, that is, 18 layers in the blocks, a
 **BNTT** - Batch Normalization Through Time
 
 
+
+
 ## **Training Method**
 
 This work employed BNTT-Backpropagation, that is, Surrogate-Gradient Backpropagation in combination with Batch Normalization Through Time (BNTT) to train from scratch. [BNTT-Backpropagation](https://www.frontiersin.org/articles/10.3389/fnins.2021.773954/full)
+
+
 
 
 ## **Evaluation**
