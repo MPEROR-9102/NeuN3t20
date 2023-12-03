@@ -14,16 +14,19 @@
 
 
 ## **Dataset**
->This work utilizes a simulation-based dataset, created using a driving simulation known as Carla. This dataset consists of sequences each of which represents various scenarios in driving, where some represent a collision course while others represent safe driving.
->
->This dataset satisfies the requirements of mimicking real-world driving conditions under different circumstances and providing First-Person-View (FPV), which are some of the crucial criteria when addressing autonomous driving.
->
->The data has both safe and risky classes with 7000 sequences each. Each sequence consists of 8 images before the collision. The resolution of each frame in every sequence is 144 x 216 for training and inference.
+
+This work utilizes a simulation-based dataset, created using a driving simulation known as Carla. This dataset consists of sequences each of which represents various scenarios in driving, where some represent a collision course while others represent safe driving. This dataset satisfies the requirements of mimicking real-world driving conditions under different circumstances and providing First-Person-View (FPV), which are some of the crucial criteria when addressing autonomous driving. The data has both safe and risky classes with 7000 sequences each. Each sequence consists of 8 images before the collision. The resolution of each frame in every sequence is 144 x 216 for training and inference.
 
 
 ## **Training Method**
 
 This work employed BNTT-Backpropagation, that is, Surrogate-Gradient Backpropagation in combination with Batch Normalization Through Time (BNTT) to train from scratch. [BNTT-Backpropagation](https://www.frontiersin.org/articles/10.3389/fnins.2021.773954/full)
+
+
+## **NeuN3t20 Architecture**
+
+
+## **Evaluation**
 
 
 <img width="1287" alt="Screenshot 2023-12-03 at 4 04 20 PM" src="https://github.com/MPEROR-9102/NeuN3t20/assets/97546729/00f338d2-f82e-4680-a2a6-9df7b595c5e6">
