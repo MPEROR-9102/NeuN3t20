@@ -15,14 +15,9 @@
 
 ## **Dataset**
 
-This work utilizes a simulation-based dataset, created using a driving simulation known as Carla. This dataset consists of sequences each of which represents various scenarios in driving, where some represent a collision course while others represent safe driving. This dataset satisfies the requirements of mimicking real-world driving conditions under different circumstances and providing First-Person-View (FPV), which are some of the crucial criteria when addressing autonomous driving. The data has both safe and risky classes with 7000 sequences each. Each sequence consists of 8 images before the collision. The resolution of each frame in every sequence is 144 x 216 for training and inference.
+This work utilizes a simulation-based dataset, created using a driving simulation known as Carla. This dataset consists of sequences each of which represents various scenarios in driving, where some represent a collision course while others represent safe driving. This dataset satisfies the requirements of mimicking real-world driving conditions under different circumstances and providing First-Person-View (FPV), which are some of the crucial criteria when addressing autonomous driving. The data has both safe and risky classes with 7000 sequences each. Each sequence consists of 8 images before the collision. The resolution of each frame in every sequence is 144 x 216 for training and inference. ![More Info](https://towardsdatascience.com/building-a-deep-learning-model-to-judge-if-you-are-at-risk-1c96f90d666c)
 
 <img width="1287" alt="CollisionOrNot" src="https://github.com/MPEROR-9102/NeuN3t20/assets/97546729/00f338d2-f82e-4680-a2a6-9df7b595c5e6">
-
-
-## **Training Method**
-
-This work employed BNTT-Backpropagation, that is, Surrogate-Gradient Backpropagation in combination with Batch Normalization Through Time (BNTT) to train from scratch. [BNTT-Backpropagation](https://www.frontiersin.org/articles/10.3389/fnins.2021.773954/full)
 
 
 ## **NeuN3t20 Architecture**
@@ -35,8 +30,13 @@ NeuN3t20 architecture consists of 20 layers, that is, 18 layers in the blocks, a
 **BNTT** - Batch Normalization Through Time
 
 
+## **Training Method**
+
+This work employed BNTT-Backpropagation, that is, Surrogate-Gradient Backpropagation in combination with Batch Normalization Through Time (BNTT) to train from scratch. [BNTT-Backpropagation](https://www.frontiersin.org/articles/10.3389/fnins.2021.773954/full)
+
+
 ## **Evaluation**
 
-The objective is to compare the performance of the proposed approach, NeuN3t20 against other spatio-temporal feature extractors, which include ConvLSTM and CNN+LSTM, on CollisionOrNot dataset. It includes comparing test accuracy and adversarial robustness(L-infinity Projected Gradient Descent (LinfPGD) attack in a blackbox circumstance for perturbation strengths ranging from 0 to 1)
+The objective is to compare the performance of the proposed approach, NeuN3t20 against other spatio-temporal feature extractors, which include ConvLSTM and CNN+LSTM, on CollisionOrNot dataset. It includes comparing test accuracy and adversarial robustness(L-infinity Projected Gradient Descent (LinfPGD) attack in a blackbox circumstance for perturbation strengths ranging from 0 to 1).
 
 <img width="480" alt="TestAcc" src="https://github.com/MPEROR-9102/NeuN3t20/assets/97546729/79f882a2-07db-4ee3-a388-b79d15843e53">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width="455" alt="AdvInpAcc" src="https://github.com/MPEROR-9102/NeuN3t20/assets/97546729/0e1c7894-a21e-4f3d-876f-83ce52dd502b">
