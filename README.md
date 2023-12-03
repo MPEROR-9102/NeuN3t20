@@ -39,4 +39,4 @@ NeuN3t20 architecture consists of 20 layers, that is, 18 layers in the blocks, a
 
 The objective is to compare the performance of the proposed approach, NeuN3t20 against other spatio-temporal feature extractors, which include ConvLSTM and CNN+LSTM, on CollisionOrNot dataset. It includes comparing test accuracy and adversarial robustness(L-infinity Projected Gradient Descent (LinfPGD) attack in a blackbox circumstance for perturbation strengths ranging from 0 to 1)
 
-<img width="320" alt="TestAcc" src="https://github.com/MPEROR-9102/NeuN3t20/assets/97546729/79f882a2-07db-4ee3-a388-b79d15843e53">
+<img width="480" alt="TestAcc" src="https://github.com/MPEROR-9102/NeuN3t20/assets/97546729/79f882a2-07db-4ee3-a388-b79d15843e53">\t\t\t\t<img width="480" alt="AdvInpAcc" src="https://github.com/MPEROR-9102/NeuN3t20/assets/97546729/0e1c7894-a21e-4f3d-876f-83ce52dd502b">
