@@ -29,10 +29,10 @@ This work employed BNTT-Backpropagation, that is, Surrogate-Gradient Backpropaga
 
 NeuN3t20 architecture consists of 20 layers, that is, 18 layers in the blocks, a convolutional layer, and a fully connected layer at the bottom of architecture respectively.
 
-[NeuN3t20Arch](https://github.com/MPEROR-9102/NeuN3t20/assets/97546729/f46b9010-5a01-4bb4-a9ab-aed959a4b48d)
+<img width="1400" alt="NeuN3t20Arch" src="https://github.com/MPEROR-9102/NeuN3t20/assets/97546729/f46b9010-5a01-4bb4-a9ab-aed959a4b48d">
 
-SF - Spiking Function
-BNTT - Batch Normalization Through Time
+**SF** - Spiking Function;
+**BNTT** - Batch Normalization Through Time
 
 
 ## **Evaluation**
