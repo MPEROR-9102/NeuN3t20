@@ -1,8 +1,8 @@
-# **NeuN3t20: Convolutional Spiking Neural Network for Vehicle Collision Avoidance**
+<img width="1287" alt="Screenshot 2023-12-03 at 4 04 20 PM" src="https://github.com/MPEROR-9102/NeuN3t20/assets/97546729/00f338d2-f82e-4680-a2a6-9df7b595c5e6"># **NeuN3t20: Convolutional Spiking Neural Network for Vehicle Collision Avoidance**
 
 ## **Overview**
 
-NeuN3t20 is an initiative culminating in the construction of a Convolutional Spiking Neural Network (CSNN) based on the ResNet20 architecture. The primary focus of this project is real-time video-based vehicle collision prediction. 
+NeuN3t20 is an initiative culminating in the construction of a Convolutional Spiking Neural Network based on the ResNet20 architecture. The primary focus of this project is real-time video-based vehicle collision prediction. 
 
 
 ## **Key Features**
@@ -17,4 +17,6 @@ NeuN3t20 is an initiative culminating in the construction of a Convolutional Spi
 
 ## **Training Method**
 
-This work employed BNTT-Backpropagation, that is, Surrogate-Gradient Backpropagation in combination with Batch Normalization Through Time (BNTT) to train NeuN3t20 from scratch. [BNTT-Backpropagation](https://www.frontiersin.org/articles/10.3389/fnins.2021.773954/full)
+This work employed BNTT-Backpropagation, that is, Surrogate-Gradient Backpropagation in combination with Batch Normalization Through Time (BNTT) to train from scratch. [BNTT-Backpropagation](https://www.frontiersin.org/articles/10.3389/fnins.2021.773954/full)
+
+
