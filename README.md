@@ -29,7 +29,7 @@ This work employed BNTT-Backpropagation, that is, Surrogate-Gradient Backpropaga
 
 NeuN3t20 architecture consists of 20 layers, that is, 18 layers in the blocks, a convolutional layer, and a fully connected layer at the bottom of architecture respectively.
 
-<img width="1400" alt="NeuN3t20Arch" src="https://github.com/MPEROR-9102/NeuN3t20/assets/97546729/f46b9010-5a01-4bb4-a9ab-aed959a4b48d">
+<img width="1287" alt="NeuN3t20Arch" src="https://github.com/MPEROR-9102/NeuN3t20/assets/97546729/f46b9010-5a01-4bb4-a9ab-aed959a4b48d">
 
 **SF** - Spiking Function;
 **BNTT** - Batch Normalization Through Time
@@ -37,3 +37,6 @@ NeuN3t20 architecture consists of 20 layers, that is, 18 layers in the blocks, a
 
 ## **Evaluation**
 
+The objective is to compare the performance of the proposed approach, NeuN3t20 against other spatio-temporal feature extractors, which include ConvLSTM and CNN+LSTM, on CollisionOrNot dataset. It includes comparing test accuracy and adversarial robustness(L-infinity Projected Gradient Descent (LinfPGD) attack in a blackbox circumstance for perturbation strengths ranging from 0 to 1)
+
+<img width="1287" alt="TestAcc" src="https://github.com/MPEROR-9102/NeuN3t20/assets/97546729/79f882a2-07db-4ee3-a388-b79d15843e53">
