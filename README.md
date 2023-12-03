@@ -14,4 +14,4 @@ NeuN3t20 is an initiative culminating in the construction of a Convolutional Spi
 >**Energy Efficiency:** The project places a strong emphasis on energy efficiency, ensuring that the neural network operates optimally in resource-constrained environments.
 
 Training Method
-This work employed BNTT-Backpropagation, that is, Surrogate-Gradient Backpropagation in combination with Batch Normalization Through Time (BNTT) to train NeuN3t20 from scratch. ![Refer](https://www.frontiersin.org/articles/10.3389/fnins.2021.773954/full)
+This work employed BNTT-Backpropagation, that is, Surrogate-Gradient Backpropagation in combination with Batch Normalization Through Time (BNTT) to train NeuN3t20 from scratch. [BNTT-Backpropagation](https://www.frontiersin.org/articles/10.3389/fnins.2021.773954/full)
