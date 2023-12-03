@@ -1,4 +1,4 @@
-<img width="1287" alt="Screenshot 2023-12-03 at 4 04 20 PM" src="https://github.com/MPEROR-9102/NeuN3t20/assets/97546729/00f338d2-f82e-4680-a2a6-9df7b595c5e6"># **NeuN3t20: Convolutional Spiking Neural Network for Vehicle Collision Avoidance**
+# **NeuN3t20: Convolutional Spiking Neural Network for Vehicle Collision Avoidance**
 
 ## **Overview**
 
@@ -20,3 +20,4 @@ NeuN3t20 is an initiative culminating in the construction of a Convolutional Spi
 This work employed BNTT-Backpropagation, that is, Surrogate-Gradient Backpropagation in combination with Batch Normalization Through Time (BNTT) to train from scratch. [BNTT-Backpropagation](https://www.frontiersin.org/articles/10.3389/fnins.2021.773954/full)
 
 
+<img width="1287" alt="Screenshot 2023-12-03 at 4 04 20 PM" src="https://github.com/MPEROR-9102/NeuN3t20/assets/97546729/00f338d2-f82e-4680-a2a6-9df7b595c5e6">
