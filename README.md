@@ -52,9 +52,10 @@ This work employed BNTT-Backpropagation, that is, Surrogate-Gradient Backpropaga
 
 <p align="center"><img width="480" alt="TestAcc" src="https://github.com/MPEROR-9102/NeuN3t20/assets/97546729/79f882a2-07db-4ee3-a388-b79d15843e53"></p>
 <p align="justify">NeuN3t20 surpassed the test accuracy of CNN+LSTM and performed on par with ConvLSTM by achieving a peak accuracy of 97.17%. In terms of parameter count, NeuN3t20 outperformed both the competitive approaches by a great margin having just 0.27 million parameters to perform this event recognition task.</p>
+<p align="justify" ><strong>This substantially lower parameter count coupled with competitive accuracy of NeuN3t20 can be supported with the fact of SNNs’ unique spiking behavior modelling and information encoding scheme. NeuN3t20 leveraging event-based or temporal representation of frames is significantly more effective than ANNs processing the frames in a continuous sequence, which in this scenario require a larger number of parameters to capture the same information.</strong></p>
+
+
 <p align="center"><img width="455" alt="AdvInpAcc" src="https://github.com/MPEROR-9102/NeuN3t20/assets/97546729/0e1c7894-a21e-4f3d-876f-83ce52dd502b"></p>
 <p align="justify">The robustness of NeuN3t20 against ConvLSTM is tested(since both have competitive test accuracies). NeuN3t20 is more
 robust than ConvLSTM all along the range of perturbation strengths. Especially in the range 0 to 0.1, where the perturbed inputs seem visually imperceptible to the raw inputs, proposed approach performance remained nearly the same without any deterioration</p>
-
-
-<p align="justify" ><strong></string>This substantially lower parameter count coupled with competitive accuracy of NeuN3t20 can be supported with the fact of SNNs’ unique spiking behavior modelling and information encoding scheme. NeuN3t20 leveraging event-based or temporal representation of frames is significantly more effective than ANNs processing the frames in a continuous sequence, which in this scenario require a larger number of parameters to capture the same information.</strong></p>
+<p align="justify" ><strong>An SNN's temporal development of the neurons' membrane potential is caused by the network's stochastic input from noisy neurons in the form of a Poisson spike train. When compared to ANNs, an SNN is adversarially more resilient due to the intrinsic noise it contains. Particularly in the event of a blackbox attacks, in which the attacker is unaware of the parameters of the target model.</strong></p>
